@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    text-decoration: none;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 106%;
+    text-shadow: 4px 4px 4px black, 4px 4px 4px black, 4px 4px 4px black ;
+    color: #bbb;
+
+}
+* :hover{
+    text-shadow: 0 0 0 transparent;
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    box-shadow: 0 0 100px 0 black;
+    background-image: url("../IMG/madeira.jpg");    
+}
+.botao{
+    padding: 0px;
+    margin: 0 20px 20px;
+    width: 18%;
+    height: 33%;
+    margin-top: 2%;
+    text-align: center;
+}
+body{
+    background-image: url("../IMG/bar.jpg");
+}
+#BAR{
+    margin: 0;
+}
+img{
+    margin: 120px 20px 0;
+    width: 100px;
+}
+.telacentral{
+
+    width: 50%;
+    min-height: 400px;
+    margin: 180px auto;
+    box-shadow: 10px 100px 100px 50px black;
+    background-color: transparent;
+    border: 3px ridge rgba(7, 7, 7, 0.7);
+}
